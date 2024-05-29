@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: rgb(12, 8, 71);
+    display:flex;
+    align-items: center;
+    height: 60px;
+}
+#title{
+    padding-left:25px;
+    font-family:Trattatello, fantasy;
+    font-weight:500;
+    font-size: 20px;
+    color: white;
+}
+.NavBar{
+    margin-left: auto;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom,rgb(114, 85, 243),rgb(152, 166, 234),rgb(221, 221, 240));
+}
+#image{
+    height:60px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+#login,#register,#home{
+    
+    padding-right: 40px;
+}
+.NavBar a:hover{
+    color:blueviolet;
+}
+#search{
+    width:300px;
+    height:30px;
+    margin-right: 30px;
+}
+.profile-icon{
+    font-size: 40px;
+    padding-right:20px;
+}
+.profile-icon:hover{
+    transform: scale(1.2);
+}
+form{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 20px;                            
+    margin-top:10vh;
+    color:rgba(23, 1, 8, 0.861);
+    background-color:rgb(241, 232, 232);
+    border-radius: 10%;
+    display:inline-block;
+}
+h2{
+    padding-top: 5px;
+    text-align: center;
+}
+#formbut{
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    padding: 8px;
+    color:antiquewhite;
+    background-color: rgb(43, 87, 189);
+}
+input{
+    width:200px;
+    height:20px;
+    border:1px solid black;
+}
+.bleh{
+    margin-left: 20px;
+}
+.one{
+    text-align: right;
+    padding-top: 80px;
+    padding-right:120px;
+    font-family:Stencil Std, fantasy ;
+    font-size: 30px;
+    color:rgb(69, 45, 9);
+}
+.container {
+    
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr; 
+}
+table {
+    width: 50%;
+    margin-top:50px;
+    margin-left:20px;
+}
+td {
+    padding: 10px;
+    padding-right: 50px;;
+    text-align: center;
+}
+.imgid{
+    height:150px;
+    width:120px;
+    object-fit:cover;
+}
+#item{
+    color: rgb(63, 61, 61);
+    font-size: 25px;
+    font-family: OCR A Std, monospace;
+}
+#buy{
+    padding:5px;
+    border: none;
+    font-size: 12px;
+    background-color: cadetblue;
+}
+#buy:hover{
+    background-color: coral;
+    transform: scale(1.2);
+}
+footer{
+    margin-top:30px;
+    display: flex;
+    background-color: rgb(12, 8, 71);
+}
+#about{
+    padding-left:300px;
+    padding-top:50px;
+    font-size:20px;
+}
+#contact{
+    margin-left: auto;
+    padding-right:300px;
+    padding-top:50px;
+}
+#gtk{
+    font-size:20px;
+    color:white;
+    margin-bottom:15px;
+}
+#contact a {
+    display: block; 
+}
+#contact a:last-child{
+    padding-bottom: 10px;
+}
+#about:hover{
+    color:blueviolet ;
+    text-decoration:underline;
+}
+#contact a:hover{
+    color: blueviolet;
+}
+
